@@ -1,0 +1,54 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('users/index')}}" class="index-url">用户列表</a></li>
+		<li class="active"><a href="{{:url('users/add')}}">新增用户</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('users/addsave')}}">
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 用户名</label>
+			<div class="col-sm-8">
+				<input type="text" name="name" class="form-control width300">
+				<span class="help-block">用户名用于登陆，仅限英文字符 + 数字</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 昵称</label>
+			<div class="col-sm-8">
+				<input type="text" name="nickname" class="form-control width300">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 密码</label>
+			<div class="col-sm-8">
+				<input type="text" name="passwd" class="form-control width300">
+				<span class="help-block">密码长度不能小于 6 位字符长度</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 角色分配</label>
+			<div class="col-sm-8">
+				{{$rolelists}}
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 状态</label>
+			<div class="col-sm-8">
+				<label class="radio-inline">
+					<input type="radio" name="status" value="0" checked> 禁用
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="status" value="1"> 启用
+				</label>
+			</div>
+		</div>
+		<div class="form-group" style="margin-top: 30px;">
+			<div class="col-sm-offset-3 col-sm-8">
+				<a class="btn btn-primary btn-save">保 存</a>
+				<a class="btn btn-default left20 btn-cancel">返 回</a>
+			</div>
+		</div>
+	</form>
+</block>

@@ -1,0 +1,124 @@
+<extend name="common:base" />
+
+<block name="content">
+	<div style="height: 32px;">
+		<ul class="nav nav-tabs pull-left">
+			<li class="active"><a href="{{:url('article/index')}}" class="index-url">文章列表</a></li>
+			<li><a href="{{:url('article/add')}}">新增文章</a></li>
+		</ul>
+		<form name="searchForm" class="form-inline pull-left" action="{{:url('article/index')}}" method="get" style="margin-top: -2px; margin-left: 20px;">
+			<div class="form-group">
+				<label class="sr-only">这里不显示</label>
+				<div class="input-group">
+					<div class="input-group-addon">标题</div>
+					<input type="text" name="title" value="{{$title}}" class="form-control">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="sr-only">这里不显示</label>
+				<div class="input-group">
+					<div class="input-group-addon">发布时间</div>
+					<input type="text" name="startime" value="{{$startime}}" id="datetime_start" class="form-control" style="width: 120px;" readonly>
+					<div class="input-group-addon">~</div>
+					<input type="text" name="endtime" value="{{$endtime}}" id="datetime_end" class="form-control" style="width: 120px;" readonly>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">搜索</button>
+			<a href="{{:url('article/index')}}" class="btn btn-default">清空</a>
+		</form>
+	</div>
+	
+	<table class="table table-bordered table-hover top10" style="margin-bottom: 10px; font-size: 12px;">
+		<tr class="table-header" style="background-color: #EFEFEF;">
+			<th>ID</th>
+			<th style="width: 40%;">标题</th>
+			<th>所属分类</th>
+			<th>作者 / 来源</th>
+			<th>浏览</th>
+			<th>发布时间</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+		<volist name="lists" id="voart">
+			<tr>
+				<td>{{$voart.id}}</td>
+				<td>
+					<img class="artlists-faceimg show-faceimg" src="{{$voart.faceimg}}">
+					<span style="white-space: pre-wrap; word-wrap: break-word;">{{$voart.title}}</span>
+				</td>
+				<td>{{$voart.cname}}</td>
+				<td>
+					作者：{{$voart.author}} <br>
+					来源：{{$voart.source}}
+				</td>
+				<td>{{$voart.click}}</td>
+				<td>{{$voart.time_report|date='Y-m-d',###}}</td>
+				<td style="text-align: center;">
+					<eq name="voart.status" value="1">
+						<a class="btn btn-success btn-xs btn-editstatus" data-url="{{:url('article/editstatus')}}" data-id="{{$voart.id}}">显示</a>
+					<else/>
+						<a class="btn btn-default btn-xs btn-editstatus" data-url="{{:url('article/editstatus')}}" data-id="{{$voart.id}}">隐藏</a>
+					</eq>
+				</td>
+				<td style="text-align: center;">
+					<a href="{{:url('article/edit', array('id' => $voart['id']))}}" class="btn btn-warning btn-xs">编辑</a>
+					<a class="btn btn-danger btn-xs left10 btn-deletes" data-url="{{:url('article/deletes')}}" data-id="{{$voart['id']}}">删除</a>
+				</td>
+			</tr>
+		</volist>
+		<tr class="table-header" style="background-color: #EFEFEF;">
+			<th>ID</th>
+			<th style="width: 40%;">标题</th>
+			<th>所属分类</th>
+			<th>作者 / 来源</th>
+			<th>浏览</th>
+			<th>发布时间</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+	</table>
+	<div class="page-info">
+		<div id="page_info"></div>
+		<input type="hidden" id="allpages" value="{{$allpages}}" />
+		<input type="hidden" id="nowpage" value="{{$nowpage}}" />
+	</div>
+</block>
+
+<block name="footer">
+<script src="/static/js/laypage/laypage.js"></script>
+<script>
+	// 清空 cookie 上一页 url
+	$.cookie('edit_back_referrer', '', {path: '/'});
+	
+	// 实例化时间控件 laydate
+	laydate.render({
+		elem: '#datetime_start', //指定元素
+		format: 'yyyy-MM-dd',
+	});
+	laydate.render({
+		elem: '#datetime_end', //指定元素
+		format: 'yyyy-MM-dd',
+	});
+	
+	// ajax 分页
+	laypage({
+		cont: 'page_info',
+		pages: $('body #allpages').val(),
+		curr: function(){
+				var page = $('body #nowpage').val();
+				return page ? page : 1;
+			}(),
+		skip: true, // 分页跳转
+		jump: function(e, first){
+			if(!first){
+				layer.load(0, {shade: [0.1, '#FFF']}); // 加载层
+				var formData = $('form[name="searchForm"]').serialize();
+				var url = '/admin/article/index?page=' + e.curr + '&' + formData;
+				
+				window.location.href = url;
+				return false;
+			}
+		}
+	});
+</script>
+</block>

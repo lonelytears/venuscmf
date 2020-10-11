@@ -1,0 +1,43 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="{{:url('category/index')}}" class="index-url">分类列表</a></li>
+		<li><a href="{{:url('category/add')}}">新增分类</a></li>
+	</ul>
+	
+	<table class="table table-bordered table-hover top10">
+		<tr class="table-header">
+			<th>ID</th>
+			<th>分类名称</th>
+			<th>层级关系</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+		<volist name="categorylists" id="vocate">
+			<tr>
+				<td>{{$vocate.id}}</td>
+				<td>{{:get_tree_icons($vocate['path'])}}{{$vocate.name}}</td>
+				<td>{{$vocate.path}}</td>
+				<td style="text-align: center;">
+					<eq name="vocate.status" value="1">
+						<a class="btn btn-success btn-xs">显示</a>
+					<else/>
+						<a class="btn btn-default btn-xs">隐藏</a>
+					</eq>
+				</td>
+				<td style="text-align: center;">
+					<a href="{{:url('category/edit', array('id' => $vocate['id']))}}" class="btn btn-warning btn-xs">编辑</a>
+					<a class="btn btn-danger btn-xs left10 btn-deletes" data-url="{{:url('category/deletes')}}" data-id="{{$vocate['id']}}">删除</a>
+				</td>
+			</tr>
+		</volist>
+		<tr class="table-header">
+			<th>ID</th>
+			<th>分类名称</th>
+			<th>层级关系</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+	</table>
+</block>

@@ -1,0 +1,175 @@
+<extend name="common:base" />
+
+<block name="tohead">
+	<link rel="stylesheet" href="/static/admin/js/webuploader/webuploader.css">
+</block>
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('article/index')}}" class="index-url">文章列表</a></li>
+		<li><a href="{{:url('article/add')}}">新增文章</a></li>
+		<li class="active"><a>编辑文章</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('article/editsave')}}">
+		<table class="table table-bordered must-middle">
+			<tr>
+				<th width="10%">发布时间</th>
+				<td width="45%">
+					<input type="text" id="datetime_picker" name="time_report" value="{{$lists.time_report|date='Y-m-d',###}}" class="form-control" readonly="readonly">
+				</td>
+				<th width="10%" rowspan="3">封面图</th>
+				<td width="35%" rowspan="3" style="text-align: center;">
+					<div id="filePicker">
+						<img id="image_show" src="{{$lists.faceimg}}" style="width: 120px; height: 75px;">
+					</div>
+					<span class="help-block" style="color: #999;">图片比例为 16：10</span>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 所属分类</th>
+				<td>
+					{{$categorylists}}
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 标题</th>
+				<td>
+					<input type="text" name="title" value="{{$lists.title}}" class="form-control" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<th>信息来源</th>
+				<td>
+					<input type="text" name="source" value="{{$lists.source}}" class="form-control" maxlength="50">
+				</td>
+				<th>作者</th>
+				<td>
+					<input type="text" name="author" value="{{$lists.author}}" class="form-control">
+				</td>
+			</tr>
+			<input type="hidden" name="id" value="{{$lists.id}}">
+			<tr>
+				<th>简述</th>
+				<td colspan="3">
+					<textarea name="resume" class="form-control" maxlength="200" style="height: 55px; resize: none;">{{$lists.resume}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 标题</th>
+				<td>
+					<textarea name="seo_title" class="form-control" maxlength="80" style="height: 55px; resize: none;">{{$lists.seo_title}}</textarea>
+				</td>
+				<th>SEO 关键字</th>
+				<td>
+					<textarea name="seo_keys" class="form-control" maxlength="100" style="height: 55px; resize: none;">{{$lists.seo_keys}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 描述</th>
+				<td colspan="3">
+					<textarea name="seo_desc" class="form-control" maxlength="200" style="height: 55px; resize: none;">{{$lists.seo_desc}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 内容</th>
+				<td colspan="3">
+					<script id="ueditorbox" name="content" type="text/plain" style="width: 100%; height: 450px;">{{$lists.content|htmlspecialchars_decode}}</script>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="text-align: center;">
+					<a class="btn btn-primary btn-save">保 存</a>
+					<a class="btn btn-default btn-cancel left10">返 回</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</block>
+
+<block name="footer">
+<script>
+	// 上一个页面的 url，给编辑返回使用
+	if(document.referrer == window.location.href){
+		// 本页刷新，不处理
+	}else{
+		$.cookie('edit_back_referrer', document.referrer, {path: '/'});
+	}
+	
+	// 自定义 ueditor 上传地址，默认 article，这里要在下面的 js 前面
+	var ueditor_upload_url = "{{:url('ueditor/doupload', array('savepath' => 'article'))}}";
+</script>
+<script src="/static/admin/js/ueditor/ueditor.config.js"></script>
+<script src="/static/admin/js/ueditor/ueditor.all.min.js"></script>
+<script src="/static/admin/js/webuploader/webuploader.nolog.min.js"></script>
+<script>
+$(function(){
+	// 实例化时间控件 laydate
+	laydate.render({
+		elem: '#datetime_picker', //指定元素
+		format: 'yyyy-MM-dd',
+	});
+	
+	// 实例化 ueditor
+	var ue = UE.getEditor('ueditorbox', {
+		toolbars: [
+			['fullscreen','preview','source','undo','redo','bold','italic','underline','strikethrough','fontborder','subscript','superscript','horizontal','removeformat','pasteplain','blockquote','emotion','spechars','link','unlink','cleardoc'],
+			['insertcode','fontfamily','fontsize','paragraph','forecolor','backcolor','background','insertorderedlist','insertunorderedlist','simpleupload','insertimage','map'],
+			['justifyleft','justifyright','justifycenter','justifyjustify','imagenone','imageleft','imagecenter','imageright','insertparagraphbeforetable','inserttable','deletetable','edittable','edittd','insertrow','insertcol','deleterow','deletecol','splittorows','splittocols','splittocells','mergecells','mergeright','mergedown','deletecaption','inserttitle'],
+		],
+		autoHeightEnabled: false,
+		autoFloatEnabled: false,
+		autoClearinitialContent: false // 获得焦点后是否清空编辑器内容
+	});
+});
+
+// 封面图上传
+jQuery(function() {
+	var $ = jQuery, uploader;
+	var aid = $('input[name="id"]').val();
+	
+	// 初始化Web Uploader
+	uploader = WebUploader.create({
+		// 自动上传
+		auto: true,
+		// swf文件路径
+		swf: '/static/admin/js/webuploader/Uploader.swf',
+		// 文件接收服务端
+		server: "{{:url('article/upimage')}}",
+		formData: {'aid':aid},
+		// 选择文件的按钮。可选。
+		// 内部根据当前运行是创建，可能是input元素，也可能是flash
+		pick: '#filePicker',
+		// 只允许选择文件，可选。
+		accept: {
+			title: 'Images',
+			extensions: 'gif,jpg,jpeg,bmp,png',
+			mimeTypes: 'image/*'
+		}
+	});
+	
+	// 当有文件添加进来的时候
+    uploader.on( 'fileQueued', function( file ) { });
+	
+	// 文件上传过程中创建进度条实时显示
+	uploader.on( 'uploadProgress', function( file, percentage ) { });
+	
+	// 文件上传成功，给item添加成功class, 用样式标记上传成功
+	uploader.on( 'uploadSuccess', function(file, ret) {
+		if(ret.status == 1){
+			layer.msg(ret.msg, {icon:1, time:1500}, function(){
+				$('#image_show').attr('src', ret.imgurl);
+			});
+		}else{
+			layer.msg(ret.msg, {icon:5, time:1500});
+		}
+	});
+	
+	// 文件上传失败，现实上传出错
+	uploader.on( 'uploadError', function( file ) { });
+	
+	// 完成上传完了，成功或者失败，先删除进度条。
+    uploader.on( 'uploadComplete', function( file ) { });
+});
+</script>
+</block>

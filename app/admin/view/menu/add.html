@@ -1,0 +1,76 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('menu/index')}}" class="index-url">菜单列表</a></li>
+		<li class="active"><a href="{{:url('menu/add')}}">新增菜单</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('menu/addsave')}}">
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 上级菜单</label>
+			<div class="col-sm-8">
+				<select name="pid" class="form-control width400">
+					<option value="0">作为顶级菜单</option>
+					<volist name="menulists" id="vomenu">
+						<option value="{{$vomenu.id}}">{{:get_tree_icons($vomenu['path'])}}{{$vomenu.name}}</option>
+					</volist>
+				</select>
+				<span class="help-block">
+					菜单层级不能超过 5 级
+				</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 菜单名称</label>
+			<div class="col-sm-8">
+				<input type="text" name="name" class="form-control width400">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 模块名称</label>
+			<div class="col-sm-8">
+				<input type="text" name="module" class="form-control width400">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 控制器名称</label>
+			<div class="col-sm-8">
+				<input type="text" name="control" class="form-control width400">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 方法名称</label>
+			<div class="col-sm-8">
+				<input type="text" name="actions" class="form-control width400">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">顶级菜单图标</label>
+			<div class="col-sm-8">
+				<input type="text" name="icon" class="form-control width400">
+				<span class="help-block">
+					示例：<i class="fa fa-apple"></i> class="fa fa-apple" 只取 fa-apple 
+					<a href="http://www.fontawesome.com.cn/faicons" target="_blank">图标网址</a>
+				</span>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 状态</label>
+			<div class="col-sm-8">
+				<label class="radio-inline">
+					<input type="radio" name="status" value="0" checked> 隐藏
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="status" value="1"> 显示
+				</label>
+			</div>
+		</div>
+		<div class="form-group" style="margin-top: 30px;">
+			<div class="col-sm-offset-3 col-sm-8">
+				<a class="btn btn-primary btn-save">保 存</a>
+				<a class="btn btn-default left20 btn-cancel">返 回</a>
+			</div>
+		</div>
+	</form>
+</block>

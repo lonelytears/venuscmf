@@ -1,0 +1,62 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="{{:url('users/index')}}" class="index-url">用户列表</a></li>
+		<li><a href="{{:url('users/add')}}">新增用户</a></li>
+	</ul>
+	
+	<table class="table table-bordered table-hover top10">
+		<tr class="table-header">
+			<th>ID</th>
+			<th>用户名(昵称)</th>
+			<th>所属角色</th>
+			<th>最后登陆 IP</th>
+			<th>最后登陆时间</th>
+			<th>登陆次数</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+		<volist name="userslists" id="vousers">
+			<tr>
+				<td>{{$vousers.id}}</td>
+				<td>
+					{{$vousers.name}} 
+					<php>if($vousers['nickname']){</php>( {{$vousers.nickname}} )<php>}</php>
+				</td>
+				<td <eq name="vousers.rolename" value="未分配">style="color: #FF6600;"</eq> >
+					{{$vousers.rolename}}
+				</td>
+				<td>{{$vousers.login_ip|long2ip}}</td>
+				<td>{{$vousers.time_login}}</td>
+				<td>{{$vousers.login_count}}</td>
+				<td style="text-align: center;">
+					<eq name="vousers.status" value="1">
+						<a class="btn btn-success btn-xs">启用</a>
+					<else/>
+						<a class="btn btn-default btn-xs">禁用</a>
+					</eq>
+				</td>
+				<td style="text-align: center;">
+					<eq name="vousers.id" value="1">
+						<a class="btn btn-default btn-xs">编辑</a>
+						<a class="btn btn-default btn-xs left10">删除</a>
+					<else/>
+						<a href="{{:url('users/edit', array('id' => $vousers['id']))}}" class="btn btn-warning btn-xs">编辑</a>
+						<a class="btn btn-danger btn-xs left10">删除</a>
+					</eq>
+				</td>
+			</tr>
+		</volist>
+		<tr class="table-header">
+			<th>ID</th>
+			<th>用户名(昵称)</th>
+			<th>所属角色</th>
+			<th>最后登陆 IP</th>
+			<th>最后登陆时间</th>
+			<th>登陆次数</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+	</table>
+</block>

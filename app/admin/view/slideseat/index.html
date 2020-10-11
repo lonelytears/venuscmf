@@ -1,0 +1,31 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="{{:url('slideseat/index')}}" class="index-url">幻灯片分类列表</a></li>
+		<li><a href="{{:url('slideseat/add')}}">新增幻灯片分类</a></li>
+	</ul>
+	
+	<table class="table table-bordered table-hover top10">
+		<tr class="table-header">
+			<th>ID</th>
+			<th>分类名称</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+		<volist name="slideseatlists" id="voslideseat">
+			<tr>
+				<td>{{$voslideseat.id}}</td>
+				<td>{{$voslideseat.title}}</td>
+				<td style="text-align: center;">
+					<a href="{{:url('slideseat/edit', array('id' => $voslideseat['id']))}}" class="btn btn-warning btn-xs">编辑</a>
+					<a class="btn btn-danger btn-xs left10 btn-deletes" data-url="{{:url('slideseat/deletes')}}" data-id="{{$voslideseat['id']}}">删除</a>
+				</td>
+			</tr>
+		</volist>
+		<tr class="table-header">
+			<th>ID</th>
+			<th>分类名称</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+	</table>
+</block>

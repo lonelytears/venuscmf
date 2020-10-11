@@ -1,0 +1,110 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('article/index')}}" class="index-url">文章列表</a></li>
+		<li class="active"><a href="{{:url('article/add')}}">新增文章</a></li>
+	</ul>
+	
+	<form name="dataForm" enctype="multipart/form-data" class="form-horizontal top15" action="{{:url('article/addsave')}}">
+		<table class="table table-bordered must-middle">
+			<tr>
+				<th width="10%">发布时间</th>
+				<td width="45%">
+					<input type="text" id="datetime_picker" name="time_report" value="{{$systime|date='Y-m-d',###}}" class="form-control" readonly="readonly">
+				</td>
+				<th width="10%" rowspan="3">封面图</th>
+				<td width="35%" rowspan="3" style="text-align: center;">
+					<img src="/static/admin/images/default.png" style="width: 120px; height: 75px;">
+					<span class="help-block" style="color: #999;">封面图请在编辑中上传</span>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 所属分类</th>
+				<td>
+					{{$categorylists}}
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 标题</th>
+				<td>
+					<input type="text" name="title" class="form-control" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<th>信息来源</th>
+				<td>
+					<input type="text" name="source" value="xiaocaihu.com" class="form-control" maxlength="50">
+				</td>
+				<th>作者</th>
+				<td>
+					<input type="text" name="author" value="xiaocaihu.com" class="form-control">
+				</td>
+			</tr>
+			<tr>
+				<th>简述</th>
+				<td colspan="3">
+					<textarea name="resume" class="form-control" maxlength="200" style="height: 55px; resize: none;"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 标题</th>
+				<td>
+					<textarea name="seo_title" class="form-control" maxlength="80" style="height: 55px; resize: none;"></textarea>
+				</td>
+				<th>SEO 关键字</th>
+				<td>
+					<textarea name="seo_keys" class="form-control" maxlength="100" style="height: 55px; resize: none;"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 描述</th>
+				<td colspan="3">
+					<textarea name="seo_desc" class="form-control" maxlength="200" style="height: 55px; resize: none;"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 内容</th>
+				<td colspan="3">
+					<script id="ueditorbox" name="content" type="text/plain" style="width: 100%; height: 450px;">请输入文章内容</script>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="text-align: center;">
+					<a class="btn btn-primary btn-save">保 存</a>
+					<a class="btn btn-default btn-cancel left10">返 回</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</block>
+
+<block name="footer">
+<script>
+	// 自定义 ueditor 上传地址，默认 article，这里要在下面的 js 前面
+	var ueditor_upload_url = "{{:url('ueditor/doupload', array('savepath' => 'article'))}}";
+</script>
+<script src="/static/admin/js/ueditor/ueditor.config.js"></script>
+<script src="/static/admin/js/ueditor/ueditor.all.min.js"></script>
+<script>
+$(function(){
+	// 实例化时间控件 laydate
+	laydate.render({
+		elem: '#datetime_picker', //指定元素
+		format: 'yyyy-MM-dd',
+	});
+	
+	// 实例化 ueditor
+	var ue = UE.getEditor('ueditorbox', {
+		toolbars: [
+			['fullscreen','preview','source','undo','redo','bold','italic','underline','strikethrough','fontborder','subscript','superscript','horizontal','removeformat','pasteplain','blockquote','emotion','spechars','link','unlink','cleardoc'],
+			['insertcode','fontfamily','fontsize','paragraph','forecolor','backcolor','background','insertorderedlist','insertunorderedlist','simpleupload','insertimage','map'],
+			['justifyleft','justifyright','justifycenter','justifyjustify','imagenone','imageleft','imagecenter','imageright','insertparagraphbeforetable','inserttable','deletetable','edittable','edittd','insertrow','insertcol','deleterow','deletecol','splittorows','splittocols','splittocells','mergecells','mergeright','mergedown','deletecaption','inserttitle'],
+		],
+		autoHeightEnabled: false,
+		autoFloatEnabled: false,
+		autoClearinitialContent: true // 获得焦点后是否清空编辑器内容
+	});
+});
+</script>
+</block>

@@ -1,0 +1,74 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="{{:url('setting/imgset')}}" class="index-url">图片设置</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('setting/imgsetsave')}}">
+		<table class="table table-bordered must-middle">
+			<tr>
+				<th width="10%">网站名称</th>
+				<td width="30%">
+					<input type="text" name="sitename" value="{{$lists.sitename}}" class="form-control" maxlength="50">
+				</td>
+				<th width="10%">网站开关</th>
+				<td width="50%">
+					<label class="radio-inline">
+						<input type="radio" name="sitestatus" value="0" <eq name="lists.sitestatus" value="0">checked</eq> > 关闭
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="sitestatus" value="1" <eq name="lists.sitestatus" value="1">checked</eq> > 开启
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<th>网站域名</th>
+				<td>
+					<input type="text" name="sitehost" value="{{$lists.sitehost}}" class="form-control" maxlength="50">
+				</td>
+				<th>版权信息</th>
+				<td>
+					<input type="text" name="copyright" value="{{$lists.copyright}}" class="form-control" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<th>网站备案号</th>
+				<td>
+					<input type="text" name="siteicp" value="{{$lists.siteicp}}" class="form-control" maxlength="50">
+				</td>
+				<th>公网安备案号</th>
+				<td>
+					<input type="text" name="sitecyber" value="{{$lists.sitecyber}}" class="form-control" maxlength="50">
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 标题</th>
+				<td>
+					<textarea name="seo_title" class="form-control" maxlength="80" style="height: 75px; resize: none;">{{$lists.seo_title}}</textarea>
+				</td>
+				<th>SEO 关键字</th>
+				<td>
+					<textarea name="seo_keys" class="form-control" maxlength="100" style="height: 75px; resize: none;">{{$lists.seo_keys}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>SEO 描述</th>
+				<td colspan="3">
+					<textarea name="seo_desc" class="form-control" maxlength="200" style="height: 95px; resize: none;">{{$lists.seo_desc}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>统计代码</th>
+				<td colspan="3">
+					<textarea name="statis_code" class="form-control" maxlength="200" style="height: 95px; resize: none;">{{$lists.statis_code}}</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="text-align: center;">
+					<a class="btn btn-primary btn-save">保 存</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</block>

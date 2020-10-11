@@ -1,0 +1,25 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('slideseat/index')}}" class="index-url">幻灯片分类列表</a></li>
+		<li><a href="{{:url('slideseat/add')}}">新增幻灯片分类</a></li>
+		<li class="active"><a>编辑幻灯片分类</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('slideseat/editsave')}}">
+		<div class="form-group">
+			<label class="col-sm-3 control-label"><span class="must-red">*</span> 分类名称</label>
+			<div class="col-sm-8">
+				<input type="text" name="title" value="{{$lists.title}}" class="form-control width400">
+			</div>
+		</div>
+		<input type="hidden" name="id" value="{{$lists.id}}">
+		<div class="form-group" style="margin-top: 30px;">
+			<div class="col-sm-offset-3 col-sm-8">
+				<a class="btn btn-primary btn-save">保 存</a>
+				<a class="btn btn-default left20 btn-cancel">返 回</a>
+			</div>
+		</div>
+	</form>
+</block>

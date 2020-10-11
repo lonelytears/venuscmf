@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/static/admin/css/style.css?time={{$systime}}">
+	<block name="tohead"></block>
+	
+	<block name="title"><title>{{$nowmenuname}}</title></block>
+	
+	<script>
+		var root_url = "{{:url('index/index')}}";
+	</script>
+</head>
+<body>
+<div class="container-fluid topnav">
+	<a href="{{:url('index/index')}}" class="brand pull-left">
+		<img src="/static/admin/images/logo.png">
+	</a>
+	<ul class="topmenu pull-left">
+		<li><a class="btn btn-info btn-launch" title="伸缩导航"><i class="fa fa-bars"></i></a></li><li><a class="btn btn-warning btn-recache" data-url="{{:url('setting/recache')}}" title="刷新缓存"><i class="fa fa-trash"></i></a></li>
+		<li><a class="btn btn-success" title="网站首页"><i class="fa fa-home"></i></a></li>
+	</ul>
+	<ul class="userinfo pull-right">
+		<li>
+			<a>
+				<i class="fa fa-calendar"></i> <span id="calendar">{{$systime|date="Y 年 m 月 d 日", ###}}</span>
+			</a>
+		</li>
+		<li><a><i class="fa fa-user"></i> {{$username}}</a></li>
+		<li class="truebtn">
+			<a class="truebtn btn-repasswd" data-url="{{:url('myinfo/repasswd')}}" data-title="修改密码" data-width="600" data-height="280">
+				<i class="fa fa-key"></i> 修改密码
+			</a>
+		</li>
+		<li class="truebtn">
+			<a class="truebtn btn-logout" data-url="{{:url('publics/logout')}}">
+				<i class="fa fa-sign-out"></i> 注销
+			</a>
+		</li>
+	</ul>
+</div>
+
+<div class="container-fluid main">
+	<div id="sidebar" class="sidebar">
+		{{$sidebar}}
+	</div>
+	<div class="mainbox">
+		<div class="maintop">
+			<div class="nowseat">
+				<span>当前位置：</span>
+				<span>
+					<php>if($nowmenuname == 'index'){</php>
+						后台首页
+					<php>}else{</php>
+						{{$nowmenuname|default="后台首页"}}
+					<php>}</php>
+				</span>
+			</div>
+			<div class="btninfo">
+				<a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i> 刷 新</a>
+			</div>
+		</div>
+		<div class="maincont">
+			<block name="content"></block>
+		</div>
+	</div>
+</div>
+
+<div id="pop_html" style="display: none;"></div>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/admin/js/jquery.cookie.js"></script>
+<script src="/static/js/layer/layer.js"></script>
+<script src="/static/js/laydate/laydate.js"></script>
+<script src="/static/admin/js/common.js?time={{$systime}}"></script>
+<block name="footer"></block>
+</body>
+</html>

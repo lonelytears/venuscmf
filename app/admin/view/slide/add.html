@@ -1,0 +1,50 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('slide/index')}}" class="index-url">幻灯片列表</a></li>
+		<li class="active"><a href="{{:url('slide/add')}}">新增幻灯片</a></li>
+	</ul>
+	
+	<form name="dataForm" enctype="multipart/form-data" class="form-horizontal top15" action="{{:url('slide/addsave')}}">
+		<table class="table table-bordered must-middle">
+			<tr>
+				<th width="10%"><span class="must-red">*</span> 标题</th>
+				<td width="45%">
+					<input type="text" name="title" class="form-control" maxlength="50">
+				</td>
+				<th width="10%" rowspan="3">图片</th>
+				<td width="35%" rowspan="3" style="text-align: center;">
+					<img src="/static/admin/images/default.png" style="width: 120px; height: 75px;">
+					<span class="help-block" style="color: #999;">图片请在编辑中上传</span>
+				</td>
+			</tr>
+			<tr>
+				<th><span class="must-red">*</span> 所属分类</th>
+				<td>
+					{{$categorylists}}
+				</td>
+			</tr>
+			<tr>
+				<th>URL</th>
+				<td>
+					<input type="text" name="url" class="form-control" maxlength="100">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="text-align: center;">
+					<a class="btn btn-primary btn-save">保 存</a>
+					<a class="btn btn-default btn-cancel left10">返 回</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</block>
+
+<block name="footer">
+<script>
+$(function() {
+	
+});
+</script>
+</block>

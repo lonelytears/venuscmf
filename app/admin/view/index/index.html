@@ -1,0 +1,20 @@
+<extend name="common:base" />
+
+<block name="title"><title>后台首页</title></block>
+
+<block name="content">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title"><i class="fa fa-tachometer"></i> 系统信息</h3>
+				</div>
+				<table class="table table-bordered table-hover">
+					<volist name="sysinfo" id="val">
+						<tr><td>{{$key}}</td><td>{{$val}}</td></tr>
+					</volist>
+				</table>
+			</div>
+		</div>
+	</div>
+</block>

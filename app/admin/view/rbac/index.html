@@ -1,0 +1,50 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="{{:url('rbac/index')}}" class="index-url">角色列表</a></li>
+		<li><a href="{{:url('rbac/add')}}">新增角色</a></li>
+	</ul>
+	
+	<table class="table table-bordered table-hover top10">
+		<tr class="table-header">
+			<th>ID</th>
+			<th>角色名称</th>
+			<th>备注</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+		<volist name="rolelists" id="vorole">
+			<tr>
+				<td>{{$vorole.id}}</td>
+				<td>{{$vorole.name}}</td>
+				<td>{{$vorole.remark}}</td>
+				<td style="text-align: center;">
+					<eq name="vorole.status" value="1">
+						<a class="btn btn-success btn-xs">启用</a>
+					<else/>
+						<a class="btn btn-default btn-xs">禁用</a>
+					</eq>
+				</td>
+				<td style="text-align: center;">
+					<eq name="vorole.id" value="1">
+						<a class="btn btn-default btn-xs">权限设置</a>
+						<a class="btn btn-default btn-xs left10">编辑</a>
+						<a class="btn btn-default btn-xs left10">删除</a>
+					<else/>
+						<a href="{{:url('rbac/authorize', array('id' => $vorole['id']))}}" class="btn btn-warning btn-xs">权限设置</a>
+						<a href="{{:url('rbac/edit', array('id' => $vorole['id']))}}" class="btn btn-info btn-xs left10">编辑</a>
+						<a class="btn btn-danger btn-xs left10">删除</a>
+					</eq>
+				</td>
+			</tr>
+		</volist>
+		<tr class="table-header">
+			<th>ID</th>
+			<th>角色名称</th>
+			<th>备注</th>
+			<th style="text-align: center;">状态</th>
+			<th style="text-align: center;">操作</th>
+		</tr>
+	</table>
+</block>

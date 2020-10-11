@@ -1,0 +1,62 @@
+<extend name="common:base" />
+
+<block name="content">
+	<ul class="nav nav-tabs">
+		<li><a href="{{:url('rbac/index')}}" class="index-url">角色列表</a></li>
+		<li><a href="{{:url('rbac/add')}}">新增角色</a></li>
+		<li class="active"><a>权限设置</a></li>
+	</ul>
+	
+	<form name="dataForm" class="form-horizontal top15" action="{{:url('rbac/authorizesave')}}">
+		<input type="hidden" name="id" value="{{$role_id}}">
+		<table class="table table-bordered">
+			{{$rbacmenu}}
+		</table>
+		<div class="form-group" style="margin-top: 30px; text-align: center;">
+			<a class="btn btn-danger btn-checkall">全选</a>
+			<a class="btn btn-warning left20 btn-checknot">反选</a>
+			<a class="btn btn-primary left20 btn-save">保 存</a>
+			<a class="btn btn-default left20 btn-cancel">返 回</a>
+		</div>
+	</form>
+</block>
+
+<block name="footer">
+<script>
+$(function() {
+	// 顶级菜单 全选 / 全不选
+	$('body').on('click', '.rbac-top', function(){
+		var val = $(this).val();
+		var pid = $(this).attr('data-pid');
+		var status = $(this).prop('checked');
+		if(status){
+			$('input.rbac-top-' + pid).prop('checked', true);
+		}else{
+			$('input.rbac-top-' + pid).prop('checked', false);
+		}
+	});
+	
+	// 一级菜单 全选 / 全不选
+	$('body').on('click', '.rolecheck', function(){
+		var val = $(this).val();
+		var myid = $(this).attr('data-myid');
+		var status = $(this).prop('checked');
+		if(status){
+			$('input.firtop-' + myid).prop('checked', true);
+		}else{
+			$('input.firtop-' + myid).prop('checked', false);
+		}
+	});
+	
+	// 权限的总体 全选
+	$('body').on('click', 'a.btn-checkall', function(){
+		$('input.rolecheck').prop('checked', true);
+	});
+	
+	// 权限的总体 反选
+	$('body').on('click', 'a.btn-checknot', function(){
+		$('input.rolecheck').prop('checked', false);
+	});
+});
+</script>
+</block>

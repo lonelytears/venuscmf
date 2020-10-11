@@ -1,0 +1,1254 @@
+---------------------------------------------------------------
+[ 2020-10-11T12:06:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] venuscmf.test/ [运行时间：0.482448s][吞吐率：2.07req/s] [内存消耗：1,056.79kb] [文件加载：33]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\PHPCode\venuscmf_tp5\app\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:25+08:00 ] 127.0.0.1 127.0.0.1 GET /home
+[ info ] venuscmf.test/home [运行时间：0.027408s][吞吐率：36.49req/s] [内存消耗：1,056.63kb] [文件加载：33]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\PHPCode\venuscmf_tp5\app\home\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] venuscmf.test/admin [运行时间：0.066433s][吞吐率：15.05req/s] [内存消耗：1,133.68kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/login.html
+[ info ] venuscmf.test/admin/publics/login.html [运行时间：0.129484s][吞吐率：7.72req/s] [内存消耗：1,268.88kb] [文件加载：38]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->login[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\publics\login.html [ array (
+  0 => 'version',
+  1 => 'systime',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify.html
+[ info ] venuscmf.test/admin/publics/verify.html [运行时间：0.072384s][吞吐率：13.82req/s] [内存消耗：1,145.78kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/images/loginbg_06.jpg
+[ info ] venuscmf.test/static/admin/images/loginbg_06.jpg [运行时间：0.129380s][吞吐率：7.73req/s] [内存消耗：821.63kb] [文件加载：26]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/images/loginbg_08.jpg
+[ info ] venuscmf.test/static/admin/images/loginbg_08.jpg [运行时间：0.016342s][吞吐率：61.19req/s] [内存消耗：821.63kb] [文件加载：26]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/publics/dologin.html
+[ info ] venuscmf.test/admin/publics/dologin.html [运行时间：0.056442s][吞吐率：17.72req/s] [内存消耗：1,152.87kb] [文件加载：36]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => 'admins',
+  'verify' => 'w7v8m',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->dologin[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify/time/0.7771953576289288.html
+[ info ] venuscmf.test/admin/publics/verify/time/0.7771953576289288.html [运行时间：0.024775s][吞吐率：40.36req/s] [内存消耗：1,146.86kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'time' => '0.7771953576289288',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify/time/0.010682705974411233.html
+[ info ] venuscmf.test/admin/publics/verify/time/0.010682705974411233.html [运行时间：0.048459s][吞吐率：20.64req/s] [内存消耗：1,146.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'time' => '0.010682705974411233',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:07:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/publics/dologin.html
+[ info ] venuscmf.test/admin/publics/dologin.html [运行时间：0.028745s][吞吐率：34.79req/s] [内存消耗：1,152.87kb] [文件加载：36]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => 'admins',
+  'verify' => 'kibvp',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->dologin[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:07:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify/time/0.19133865306809894.html
+[ info ] venuscmf.test/admin/publics/verify/time/0.19133865306809894.html [运行时间：0.029785s][吞吐率：33.57req/s] [内存消耗：1,146.88kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'time' => '0.19133865306809894',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:07:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/publics/dologin.html
+[ info ] venuscmf.test/admin/publics/dologin.html [运行时间：0.152326s][吞吐率：6.56req/s] [内存消耗：1,728.35kb] [文件加载：42]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => 'admins',
+  'verify' => 'cqmk2',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->dologin[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\PHPCode\venuscmf_tp5\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2020-10-11T12:13:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/login.html
+[ info ] venuscmf.test/admin/publics/login.html [运行时间：0.048058s][吞吐率：20.81req/s] [内存消耗：1,154.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->login[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\publics\login.html [ array (
+  0 => 'version',
+  1 => 'systime',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:13:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify.html
+[ info ] venuscmf.test/admin/publics/verify.html [运行时间：0.031563s][吞吐率：31.68req/s] [内存消耗：1,146.16kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:13:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/images/loginbg_06.jpg
+[ info ] venuscmf.test/static/admin/images/loginbg_06.jpg [运行时间：0.018932s][吞吐率：52.82req/s] [内存消耗：822.01kb] [文件加载：26]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:13:02+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/images/loginbg_08.jpg
+[ info ] venuscmf.test/static/admin/images/loginbg_08.jpg [运行时间：0.023020s][吞吐率：43.44req/s] [内存消耗：822.01kb] [文件加载：26]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:13:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/publics/dologin.html
+[ info ] venuscmf.test/admin/publics/dologin.html [运行时间：0.045071s][吞吐率：22.19req/s] [内存消耗：1,728.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => 'admins',
+  'verify' => 'b7qlj',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->dologin[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\PHPCode\venuscmf_tp5\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2020-10-11T12:13:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/login.html
+[ info ] venuscmf.test/admin/publics/login.html [运行时间：0.022150s][吞吐率：45.15req/s] [内存消耗：1,154.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->login[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\publics\login.html [ array (
+  0 => 'version',
+  1 => 'systime',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:13:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/publics/verify.html
+[ info ] venuscmf.test/admin/publics/verify.html [运行时间：0.025964s][吞吐率：38.51req/s] [内存消耗：1,146.16kb] [文件加载：34]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Publics->verify[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:14:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/images/loginbg_06.jpg
+[ info ] venuscmf.test/static/admin/images/loginbg_06.jpg [运行时间：0.014910s][吞吐率：67.07req/s] [内存消耗：822.01kb] [文件加载：26]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-10-11T12:14:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/publics/dologin.html
+[ info ] venuscmf.test/admin/publics/dologin.html [运行时间：0.107407s][吞吐率：9.31req/s] [内存消耗：1,854.87kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => 'admins',
+  'verify' => 'tfycy',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->dologin[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Publics.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001744s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.047714s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_users` WHERE  `name` = 'admins' LIMIT 1 [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] UPDATE `ven_users`  SET `login_ip`=2130706433,`time_login`=1602389655,`login_count`=26  WHERE  `id` = 1 [ RunTime:0.005386s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:14:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] venuscmf.test/admin/index/index.html [运行时间：0.186840s][吞吐率：5.35req/s] [内存消耗：2,297.34kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/publics/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\index\index.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'sysinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001388s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.045471s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_menu` [ RunTime:0.038608s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_menu` ORDER BY `path`  asc [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:14:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] venuscmf.test/admin/article/index.html [运行时间：0.156291s][吞吐率：6.40req/s] [内存消耗：2,351.51kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\article\index.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'lists',
+  6 => 'allpages',
+  7 => 'nowpage',
+  8 => 'startime',
+  9 => 'endtime',
+  10 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.037823s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_article` [ RunTime:0.036225s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ven_article` LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/add.html
+[ info ] venuscmf.test/admin/article/add.html [运行时间：0.173813s][吞吐率：5.75req/s] [内存消耗：2,353.06kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/article/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Article->add[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\article\add.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'categorylists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009906s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.035163s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_category` [ RunTime:0.032072s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_category` ORDER BY `path`  asc [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 2 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 15 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 3 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 16 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 4 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 17 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 5 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 6 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 12 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 18 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 19 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 7 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 13 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 20 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 21 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 8 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 14 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 9 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 10 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 11 LIMIT 1 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ueditor/doupload/savepath/article.html?action=config&&noCache=1602389669207
+[ info ] venuscmf.test/admin/ueditor/doupload/savepath/article.html?action=config&&noCache=1602389669207 [运行时间：0.078393s][吞吐率：12.76req/s] [内存消耗：2,152.63kb] [文件加载：48]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'doupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/article/add.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1602389669207',
+  'savepath' => 'article',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Ueditor->doupload[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Ueditor.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.036800s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:16:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/ueditor/doupload/savepath/article.html?action=uploadimage
+[ info ] venuscmf.test/admin/ueditor/doupload/savepath/article.html?action=uploadimage [运行时间：0.081540s][吞吐率：12.26req/s] [内存消耗：2,190.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'doupload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynAvOiMXoAAYnQ5dw',
+  'origin' => 'http://venuscmf.test',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '37268',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'uploadimage',
+  'savepath' => 'article',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Ueditor->doupload[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Ueditor.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.032161s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:17:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/addsave.html
+[ info ] venuscmf.test/admin/article/addsave.html [运行时间：0.220899s][吞吐率：4.53req/s] [内存消耗：2,436.19kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'addsave',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/article/add.html',
+  'origin' => 'http://venuscmf.test',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '13833',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+)
+[ info ] [ PARAM ] array (
+  'time_report' => '2020-10-11',
+  'cid' => '15',
+  'title' => '测试',
+  'source' => 'xiaocaihu.com',
+  'author' => 'xiaocaihu.com',
+  'resume' => '',
+  'seo_title' => '',
+  'seo_keys' => '',
+  'seo_desc' => '',
+  'content' => '<h2 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin-right: 0em; margin-bottom: 16px; margin-left: 0em; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255); margin-top: 0px !important;">venuscmf_tp5基于 thinkphp5.0.11，是一个基本的后台内容管理系统。</h2><p style="box-sizing: border-box; margin: 0px 0em 16px; line-height: 1.6; word-break: break-word; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">*基本模型的使用，ueditor引入，layer、laypage、laydate的使用，webuploader 上传图片，远程下载图片等等，模块思路清晰，非常适合新手的学习入门。</p><h2 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);"><a class="anchor" href="https://gitee.com/potatozhi/venuscmf_tp5#%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E6%9C%89" style="box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;"></a>实现的功能有：</h2><ul style="box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p>管理员用户管理</p></li><li><p>后台菜单管理</p></li><li><p>角色管理</p></li><li><p>rbac 权限管理</p></li><li><p>分类管理</p></li><li><p>文章管理</p></li><li><p>幻灯片分类</p></li><li><p>幻灯片管理</p></li></ul><h2 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);"><a class="anchor" href="https://gitee.com/potatozhi/venuscmf_tp5#2017-09-26" style="box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;"></a>2017-09-26</h2><ul style="box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p>上线保存到 oschina</p></li></ul><h2 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);"><a class="anchor" href="https://gitee.com/potatozhi/venuscmf_tp5#%E5%90%8E%E5%8F%B0%E5%9C%B0%E5%9D%80" style="box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;"></a>后台地址</h2><ul style="box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p>你的域名/admin</p></li><li><p>用户名、密码相同 admins</p></li></ul><h2 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);"><a class="anchor" href="https://gitee.com/potatozhi/venuscmf_tp5#%E5%85%B3%E4%BA%8E%E5%90%8E%E5%8F%B0%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E7%94%9F%E6%88%90" style="box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;"></a>关于后台用户密码生成</h2><ul style="box-sizing: border-box; padding-left: 2em; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p>表 users 中两个字段</p></li><li><p>encrypt_salt 为加密盐</p></li><li><p>passwd 为密码</p></li><li><p>加密原理：</p></li><li><p>生成一个随机数，md5 加密作为加密盐，同时保存到数据表中</p></li><li><p>加密盐与原始密码一起再 md5 加密一次，然后再 md5 再加密一次</p></li><li><p>请看 app/admin/common.php 中的函数 manager_password()</p></li></ul><p></p><p><img src="/uploads/article/202010\\38ec1ca9933654aef57a2dcd08595925.png" title="38ec1ca9933654aef57a2dcd08595925.png" alt="38ec1ca9933654aef57a2dcd08595925.png"/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Article->addsave[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.060053s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_category` [ RunTime:0.049524s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ven_category` WHERE  `pid` = 15 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_article` [ RunTime:0.052378s ]
+[ sql ] [ SQL ] INSERT INTO `ven_article` (`time_report` , `cid` , `title` , `source` , `author` , `resume` , `seo_title` , `seo_keys` , `seo_desc` , `content` , `time_create` , `time_update`) VALUES (1602345600 , 15 , '测试' , 'xiaocaihu.com' , 'xiaocaihu.com' , '' , '' , '' , '' , '<h2 style=\"box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin-right: 0em; margin-bottom: 16px; margin-left: 0em; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255); margin-top: 0px !important;\">venuscmf_tp5基于 thinkphp5.0.11，是一个基本的后台内容管理系统。</h2><p style=\"box-sizing: border-box; margin: 0px 0em 16px; line-height: 1.6; word-break: break-word; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">*基本模型的使用，ueditor引入，layer、laypage、laydate的使用，webuploader 上传图片，远程下载图片等等，模块思路清晰，非常适合新手的学习入门。</p><h2 style=\"box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);\"><a class=\"anchor\" href=\"https://gitee.com/potatozhi/venuscmf_tp5#%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E6%9C%89\" style=\"box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;\"></a>实现的功能有：</h2><ul style=\"box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\" class=\" list-paddingleft-2\"><li><p>管理员用户管理</p></li><li><p>后台菜单管理</p></li><li><p>角色管理</p></li><li><p>rbac 权限管理</p></li><li><p>分类管理</p></li><li><p>文章管理</p></li><li><p>幻灯片分类</p></li><li><p>幻灯片管理</p></li></ul><h2 style=\"box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);\"><a class=\"anchor\" href=\"https://gitee.com/potatozhi/venuscmf_tp5#2017-09-26\" style=\"box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;\"></a>2017-09-26</h2><ul style=\"box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\" class=\" list-paddingleft-2\"><li><p>上线保存到 oschina</p></li></ul><h2 style=\"box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);\"><a class=\"anchor\" href=\"https://gitee.com/potatozhi/venuscmf_tp5#%E5%90%8E%E5%8F%B0%E5%9C%B0%E5%9D%80\" style=\"box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;\"></a>后台地址</h2><ul style=\"box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\" class=\" list-paddingleft-2\"><li><p>你的域名/admin</p></li><li><p>用户名、密码相同 admins</p></li></ul><h2 style=\"box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);\"><a class=\"anchor\" href=\"https://gitee.com/potatozhi/venuscmf_tp5#%E5%85%B3%E4%BA%8E%E5%90%8E%E5%8F%B0%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E7%94%9F%E6%88%90\" style=\"box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;\"></a>关于后台用户密码生成</h2><ul style=\"box-sizing: border-box; padding-left: 2em; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\" class=\" list-paddingleft-2\"><li><p>表 users 中两个字段</p></li><li><p>encrypt_salt 为加密盐</p></li><li><p>passwd 为密码</p></li><li><p>加密原理：</p></li><li><p>生成一个随机数，md5 加密作为加密盐，同时保存到数据表中</p></li><li><p>加密盐与原始密码一起再 md5 加密一次，然后再 md5 再加密一次</p></li><li><p>请看 app/admin/common.php 中的函数 manager_password()</p></li></ul><p></p><p><img src=\"/uploads/article/202010\\38ec1ca9933654aef57a2dcd08595925.png\" title=\"38ec1ca9933654aef57a2dcd08595925.png\" alt=\"38ec1ca9933654aef57a2dcd08595925.png\"/></p>' , 1602389864 , 1602389864) [ RunTime:0.004921s ]
+[ sql ] [ SQL ] SELECT `content` FROM `ven_article` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] UPDATE `ven_article`  SET `content`='&lt;h2 style=&quot;box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin-right: 0em; margin-bottom: 16px; margin-left: 0em; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255); margin-top: 0px !important;&quot;&gt;venuscmf_tp5基于 thinkphp5.0.11，是一个基本的后台内容管理系统。&lt;/h2&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0em 16px; line-height: 1.6; word-break: break-word; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;*基本模型的使用，ueditor引入，layer、laypage、laydate的使用，webuploader 上传图片，远程下载图片等等，模块思路清晰，非常适合新手的学习入门。&lt;/p&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://gitee.com/potatozhi/venuscmf_tp5#%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E6%9C%89&quot; style=&quot;box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;&quot;&gt;&lt;/a&gt;实现的功能有：&lt;/h2&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;管理员用户管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;后台菜单管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;角色管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;rbac 权限管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;分类管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;文章管理&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;幻灯片分类&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;幻灯片管理&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://gitee.com/potatozhi/venuscmf_tp5#2017-09-26&quot; style=&quot;box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;&quot;&gt;&lt;/a&gt;2017-09-26&lt;/h2&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;上线保存到 oschina&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://gitee.com/potatozhi/venuscmf_tp5#%E5%90%8E%E5%8F%B0%E5%9C%B0%E5%9D%80&quot; style=&quot;box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;&quot;&gt;&lt;/a&gt;后台地址&lt;/h2&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-bottom: 16px; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;你的域名/admin&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;用户名、密码相同 admins&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; line-height: 1.25; margin: 24px 0em 16px; padding: 0em; position: relative; color: rgb(64, 72, 91); white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;https://gitee.com/potatozhi/venuscmf_tp5#%E5%85%B3%E4%BA%8E%E5%90%8E%E5%8F%B0%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E7%94%9F%E6%88%90&quot; style=&quot;box-sizing: border-box; background: transparent; color: rgb(9, 94, 171); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word; float: left; padding-right: 4px; margin-left: -20px; line-height: 1; display: block; padding-left: 30px; position: absolute; top: 0px; left: 0px; bottom: 0px; outline: none;&quot;&gt;&lt;/a&gt;关于后台用户密码生成&lt;/h2&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; color: rgb(64, 72, 91); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Liberation Sans&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Wenquanyi Micro Hei&quot;, &quot;WenQuanYi Zen Hei&quot;, &quot;ST Heiti&quot;, SimHei, SimSun, &quot;WenQuanYi Zen Hei Sharp&quot;, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot; class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;表 users 中两个字段&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;encrypt_salt 为加密盐&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;passwd 为密码&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;加密原理：&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;生成一个随机数，md5 加密作为加密盐，同时保存到数据表中&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;加密盐与原始密码一起再 md5 加密一次，然后再 md5 再加密一次&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;请看 app/admin/common.php 中的函数 manager_password()&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/uploads/article/20201038ec1ca9933654aef57a2dcd08595925.png&quot; title=&quot;38ec1ca9933654aef57a2dcd08595925.png&quot; alt=&quot;38ec1ca9933654aef57a2dcd08595925.png&quot;/&gt;&lt;/p&gt;'  WHERE  `id` = 1 [ RunTime:0.008053s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:17:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] venuscmf.test/admin/article/index.html [运行时间：0.192418s][吞吐率：5.20req/s] [内存消耗：2,239.51kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/article/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\article\index.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'lists',
+  6 => 'allpages',
+  7 => 'nowpage',
+  8 => 'startime',
+  9 => 'endtime',
+  10 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.079300s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_article` [ RunTime:0.034110s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ven_article` LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_article` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_category` [ RunTime:0.026257s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ven_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:17:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ info ] venuscmf.test/admin/category/index.html [运行时间：0.151668s][吞吐率：6.59req/s] [内存消耗：2,353.93kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/article/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\category\index.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'categorylists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012308s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.035134s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_category` [ RunTime:0.027704s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_category` ORDER BY `path`  asc [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2020-10-11T12:18:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ info ] venuscmf.test/admin/category/index.html [运行时间：0.125146s][吞吐率：7.99req/s] [内存消耗：2,211.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHPCode\venuscmf_tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8va8bb5lqft7rcn676err5vrg8; edit_back_referrer=',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://venuscmf.test/admin/category/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'venuscmf.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\PHPCode\venuscmf_tp5\app\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\PHPCode\venuscmf_tp5\public/../app/admin\view\category\index.html [ array (
+  0 => 'version',
+  1 => 'systime',
+  2 => 'sidebar',
+  3 => 'nowmenuname',
+  4 => 'username',
+  5 => 'categorylists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000821s ] mysql:dbname=venuscmf;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_users` [ RunTime:0.048320s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ven_users` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ven_category` [ RunTime:0.032417s ]
+[ sql ] [ SQL ] SELECT * FROM `ven_category` ORDER BY `path`  asc [ RunTime:0.000532s ]
