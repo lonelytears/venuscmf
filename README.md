@@ -1,3 +1,5 @@
+源于：https://gitee.com/potatozhi/venuscmf_tp5
+
 ## venuscmf_tp5 基于 thinkphp5.0.11，是一个基本的后台内容管理系统。
 *基本模型的使用，ueditor引入，layer、laypage、laydate的使用，webuploader 上传图片，远程下载图片等等，模块思路清晰，非常适合新手的学习入门。
 
